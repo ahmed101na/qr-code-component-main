@@ -1,0 +1,51 @@
+/*=== Import fonts ===*/
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@400;700&family=Rubik:ital@0;1&display=swap");
+/*=== On all items ===*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Amiri", serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+body {
+    background-color: hsl(220, 15%, 55%);
+}
+/*=== Center the card ===*/
+.centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 🙄🌚 */
+    position: relative;
+    top:50px;
+}
+/*=== The father who carries all the contents of the card ===*/
+.content {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+/*=== img part ===*/
+.img-qr {
+    text-align: center;
+}
+.img-qr img {
+    width: 400px;
+    padding: 15px;
+    border-radius: 25px;
+}
+/*=== Card information part ===*/
+.info h2 {
+    padding: 15px;
+}
+
+.info p {
+    opacity: 0.5;
+    margin: 10px;
+    padding: 15px;
+}
